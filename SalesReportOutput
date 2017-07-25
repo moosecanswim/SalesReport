@@ -1,0 +1,37 @@
+Enter customer phone number
+5715591087
+Enter customer name
+tom face
+Enter sales amount
+100
+Enter tax code (0,1, or 2)
+0
+Would you like to continue addint items ("y"for yes or "n" for no)
+y
+Enter customer phone number
+5713014444
+Enter customer name
+matt kov
+Enter sales amount
+10000
+Enter tax code (0,1, or 2)
+1
+Would you like to continue addint items ("y"for yes or "n" for no)
+y
+Enter customer phone number
+3015271400
+Enter customer name
+jesse marc
+Enter sales amount
+1000000
+Enter tax code (0,1, or 2)
+2
+Would you like to continue addint items ("y"for yes or "n" for no)
+n
+
+Sales Report
+Phone Number: 5715591087   | Name: tom face        | Sales Amount: $    100.00 | Sales Tax: $      0.00 | Total Due: $    100.00
+Phone Number: 5713014444   | Name: matt kov        | Sales Amount: $  10000.00 | Sales Tax: $    300.00 | Total Due: $  10300.00
+Phone Number: 3015271400   | Name: jesse marc      | Sales Amount: $1000000.00 | Sales Tax: $  50000.00 | Total Due: $1050000.00
+
+There are 3 item(s) in the report

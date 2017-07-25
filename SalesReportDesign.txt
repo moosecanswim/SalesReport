@@ -1,0 +1,50 @@
+﻿Produce a sales report
+
+Algorithm
+
+//keep tax code multiplier as 0,1,2 a 0, 0.03, and 0.05  
+
+get phone number
+get name
+get sales amount
+get tax code
+multiply the appropriate tax code by the sales amount to find the sales tax
+add the sales tax to the sales amount to get the total amount due
+
+ask if the customer wants to enter another transaction
+if they do then gather information again and process it
+
+once they are done print out “Sales Report” followed by the customer number, name, sales amount, sales tax, and the total amount due.
+
+
+
+Pseudo Code:
+
+create array that holds the tax code multipliers 
+create an array to hold out outputs
+do
+	ask user for phone number
+	ask user for name
+	ask user for sales amount
+	ask user for tax code
+	sales tax = (tax code multiplier)+1 * sales amount
+	amount due = sales tax + sales amount
+
+	combine the appropriate data into a single string and add this to our printable array.
+
+	ask if user has any more items to add
+	
+	compare the response to “y” and “n” (ignoring case) 
+		if
+		 	y- start again with the reprompt
+		else if	n- exit program
+		else	any other- error message and reprompt
+while (response is not n)
+
+Print 
+	“Sales Report”
+	[number] [name] [sales amount] [sales tax] [amount due]	//this is from out printable array
+	…
+	…
+	… continue until all items have been printed
+Exit program
